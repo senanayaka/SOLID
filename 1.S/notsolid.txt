@@ -1,0 +1,28 @@
+<?php
+
+
+class user{
+
+
+ public function getUserData(){
+
+        try{
+
+            //get data from db
+
+        }catch(DatabaseException $e){
+
+            $this -> logError();
+
+        }
+
+ }
+
+
+ function logError(){
+
+
+ }
+
+
+}
